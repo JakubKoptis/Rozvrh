@@ -1,0 +1,39 @@
+/* ScheduleForm.css */
+
+.schedule-form {
+    background-color: #00cc99;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .schedule-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .schedule-form input,
+  .schedule-form select {
+    display: block;
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .schedule-form button {
+    background-color: white;
+    color: #00cc99;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .schedule-form button:hover {
+    background-color: #f0f0f0;
+  }
+  
